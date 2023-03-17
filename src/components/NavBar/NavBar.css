@@ -1,0 +1,15 @@
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 1rem;
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+	margin-right: 1rem;
+}
