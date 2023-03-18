@@ -1,11 +1,17 @@
 import './Home.css';
+import Img from './files/front.png'
 
 
 
 function Home() {
 	return (
-		<main>
-		<h1>Home</h1>
+		<main className='home'>
+			<div className='front'>
+				<img src={Img}
+					alt="front"
+				   className='front1'/>
+			</div>
+		
 		</main>
 
 	)

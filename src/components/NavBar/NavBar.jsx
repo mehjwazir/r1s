@@ -7,25 +7,35 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 	return (
-		<main>
-			<nav>
-
-			</nav>
-			<div>
-				<h1>r1s</h1>
-			</div>
+		<header>
 			<nav>
 				<ul>
 					<li>
-						<Link to="/">Home</Link>
+						<Link to="/shop">shop</Link>
+					</li>
+					<li>
+						<Link to="/about">about</Link>
+					</li>
+					<li>
+						<Link to="/services">services</Link>
+					</li>
+					<li>
+						<Link to="/portfolio">portfolio</Link>
+					</li>
+					<li>
+						<Link to="/contact">contact</Link>
 					</li>
 				</ul>
 			</nav>
-		
-		</main>
-
+			<div className="logo-div">
+				<Link to="/" className="logo">
+					<h1 className="logo">r1s</h1>
+				</Link>
+			</div>
+		</header>
 	);
 };
+
 	
 	
 

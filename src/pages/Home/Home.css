@@ -1,0 +1,16 @@
+.front {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+	
+}
+
+.front1 {
+height: 40%;
+width: 40%;
+}
+
+.home {
+	text-align: center;
+}
