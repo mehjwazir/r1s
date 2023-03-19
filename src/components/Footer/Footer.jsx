@@ -6,7 +6,10 @@ function Footer() {
 	return (
 		<footer>
 			<hr />
-			<h5>Get in Touch</h5>
+			<ul className='footer-ul'>
+				<li>Concierge</li>
+				<li>Instagram</li>
+			</ul>
        </footer>
 
 	)

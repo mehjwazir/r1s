@@ -7,7 +7,8 @@ function About() {
 
 	return (
 		<main className='about'>
-			<h1>About</h1>
+			<h1>Rohe 1 Studio</h1>
+			<h3>About</h3>
 		</main>
 	)
 }

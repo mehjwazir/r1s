@@ -5,9 +5,8 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Shop from './pages/Shop/Shop';
 import About from './pages/About/About';
-import Services from './pages/Services/Services';
-import Portfolio from './pages/Portfolio/Portfolio';
-import Contact from './pages/Contact/Contact';
+import Work from './pages/Work/Work';
+import Inquire from './pages/Inquire/Inquire';
 
 
 
@@ -20,9 +19,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/inquire" element={<Inquire />} />
         </Routes>
         <Footer />
       </main>
