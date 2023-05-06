@@ -16,6 +16,7 @@ function Studio() {
 					<Link to='/ip'><img src={Img1} alt="ip" className="image" /></Link>
 					<Link to='/ip'><img src={Img1} alt="ip" className="image" /></Link>
 					<Link to='/ip'><img src={Img1} alt="ip" className="image" /></Link>
+					<Link to='/ip'><img src={Img1} alt="ip" className="image" /></Link>
 				</div>
 				<div className="row">
 					<Link to='/ip'><img src={Img1} alt="ip" className="image" /></Link>

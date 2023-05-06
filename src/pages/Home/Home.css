@@ -7,15 +7,15 @@
 }
 
 .front1 {
-height: 40%;
-width: 40%;
+height: 45%;
+width: 45%;
 }
 
 .home {
 	text-align: center;
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 730px) {
 	.front1 {
 	height: 100%;
 	width: 100%;

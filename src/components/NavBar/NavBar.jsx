@@ -1,21 +1,56 @@
-import './NavBar.css'
-import { Link } from 'react-router-dom';
-
-
-
-
+import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+import "./NavBar.css";
+import SideBar from "../SideBar/SideBar";
 
 const NavBar = () => {
+	const [isMobile, setIsMobile] = useState(false);
+	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+	const navRef = useRef(null);
+
+	useEffect(() => {
+		const handleResize = () => {
+			setIsMobile(window.innerWidth <= 1280);
+		};
+
+		window.addEventListener("resize", handleResize);
+
+		// Call handleResize initially to set the initial value
+		handleResize();
+
+		// Clean up event listener on unmount
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
+
+	useEffect(() => {
+		const handleClickOutside = (event) => {
+			if (navRef.current && !navRef.current.contains(event.target)) {
+				setIsSidebarOpen(false);
+			}
+		};
+
+		document.addEventListener("click", handleClickOutside);
+
+		// Clean up event listener on unmount
+		return () => document.removeEventListener("click", handleClickOutside);
+	}, [navRef]);
+
+	const handleSidebarToggle = () => {
+		setIsSidebarOpen(!isSidebarOpen);
+	};
+
 	return (
 		<header>
-			<nav>
-				<ul>
+			<nav ref={navRef}>
+				<ul
+					className={`desktop-nav ${isMobile || isSidebarOpen ? "hidden" : ""}`}
+				>
 					<li>
 						<Link to="/">home</Link>
 					</li>
 					{/* <li>
-						<Link to="/shop">shop</Link>
-					</li> */}
+              <Link to="/shop">shop</Link>
+            </li> */}
 					<li>
 						<Link to="/about">about</Link>
 					</li>
@@ -26,6 +61,16 @@ const NavBar = () => {
 						<Link to="/inquire">inquire</Link>
 					</li>
 				</ul>
+				{isMobile && (
+
+					<div className="hamburger-menu" onClick={handleSidebarToggle} aria-label="Toggle navigation menu">
+				<div className="hamburger-line"></div>
+				<div className="hamburger-line"></div>
+				<div className="hamburger-line"></div>
+			</div>
+				
+				)}
+				{isSidebarOpen && <SideBar />}
 			</nav>
 			<div className="logo-div">
 				<Link to="/" className="logo">
@@ -36,11 +81,10 @@ const NavBar = () => {
 	);
 };
 
-	
-	
-
-
 export default NavBar;
+
+
+
 
 
 

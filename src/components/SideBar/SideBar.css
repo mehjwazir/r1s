@@ -1,0 +1,77 @@
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: -300px;
+	width: 300px;
+	height: 100%;
+	background-color: #fff;
+	z-index: 999;
+	transition: all 0.3s ease-in-out;
+}
+
+.sidebar.open {
+	left: 0;
+}
+
+.sidebar a {
+	margin-left: 4rem;
+	display: block;
+	padding: 20px;
+	font-size: 1.2rem;
+	color: #000;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+
+.home-a {
+	margin-top: 4rem;
+}
+.sidebar a:hover {
+	text-decoration: underline;
+}
+
+.hamburger-menu {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	z-index: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hamburger-line {
+	width: 60%;
+	height: 1px;
+	background-color: #000;
+	margin: 5px 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.open .hamburger-line:first-child {
+	transform: rotate(45deg) translate(5px, 5px);
+}
+
+.open .hamburger-line:nth-child(2) {
+	opacity: 0;
+}
+
+.open .hamburger-line:last-child {
+	transform: rotate(-45deg) translate(5px, -5px);
+}
+
+
+.close-btn {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	background: transparent;
+	border: none;
+	font-size: 1rem;
+	cursor: pointer;
+}
