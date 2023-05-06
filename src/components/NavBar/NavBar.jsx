@@ -8,9 +8,11 @@ const NavBar = () => {
 	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 	const navRef = useRef(null);
 
+
+	// this code determines the window size and adjusts the hamburger menu accordingly as well as closes it
 	useEffect(() => {
 		const handleResize = () => {
-			setIsMobile(window.innerWidth <= 1080);
+			setIsMobile(window.innerWidth <= 1024);
 			setIsSidebarOpen(false); // close sidebar on resize
 		};
 
@@ -23,7 +25,7 @@ const NavBar = () => {
 		return () => window.removeEventListener("resize", handleResize);
 	}, []);
 
-
+// this code helps close the slider menu when clicked outside on any page
 	useEffect(() => {
 		const handleClickOutside = (event) => {
 			if (navRef.current && !navRef.current.contains(event.target)) {
@@ -35,10 +37,11 @@ const NavBar = () => {
 
 		// Clean up event listener on unmount
 		return () => document.removeEventListener("click", handleClickOutside);
-	}, [navRef]);
+	}, [navRef], [isMobile]);
+
 
 	const handleSidebarToggle = () => {
-		setIsSidebarOpen((prevIsSidebarOpen) => !prevIsSidebarOpen);
+		setIsSidebarOpen((prevState) => !prevState);
 	};
 
 	return (
