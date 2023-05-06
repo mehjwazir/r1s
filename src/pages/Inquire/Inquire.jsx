@@ -9,11 +9,14 @@ function Inquire() {
 			<h1>Inquire</h1>
 			<div className='inquire-div'>
 				<ul>
-					<li>Branding</li>
-					<li>Design</li>
+
+					<li>Brand Identity</li>
+					<li>Custom Logotype</li>
+					<li>Website Design & Development</li>
 					<li>Illustrations</li>
-					<li>Partnerships</li>
-					<li>Styling & Photography</li>
+					<li>Print Collateral</li>
+					<li>Digital Art</li>
+					<li>Other</li>
 				</ul>
 			</div>
 		</main>
