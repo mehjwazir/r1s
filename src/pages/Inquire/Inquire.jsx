@@ -21,15 +21,15 @@ const Inquire = () => {
 	};
 
 	return (
-		<main className='inquire'>
-			<h1>Inquire</h1>
+		<main>
+			<h1 className='inquire-h1'>Inquire</h1>
 			<div className='form-div'>
-				<form ref={form} onSubmit={sendEmail}>
+				<form ref={form} onSubmit={sendEmail} >
 					<label>Name</label>
-					<input type="text" name="user_name" />
+					<input type="text" name="user_name" className='name-input' />
 					<label>Email</label>
-					<input type="email" name="user_email" />
-					<label>Message</label>
+					<input type="email" name="user_email" className='user-input'/>
+					<label className='message-label'>Message</label>
 					<textarea name="message" />
 					<input type="submit" value="Submit" className='btn-submit'/>
 				</form>
