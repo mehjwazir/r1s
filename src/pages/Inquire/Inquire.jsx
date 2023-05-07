@@ -31,7 +31,7 @@ const Inquire = () => {
 					<input type="email" name="user_email" className='user-input' />
 					<label className='message-label'>Message</label>
 					<textarea name="message" />
-					<input type="submit" value="Submit" className='btn-submit' />
+					<input type="submit" value="Inquire" className='btn-submit' />
 				</form>
 
 			</div>

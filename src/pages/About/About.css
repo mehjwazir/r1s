@@ -3,3 +3,24 @@
 	text-align: center;
 }
 
+
+.about-p {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.5rem;
+	font-size: 13px;
+}
+.le-rohe1 {
+	height: 40%;
+	width: 40%;
+}
+
+@media only screen and (max-width: 730px) {
+	.about-p {
+		font-size: 11px;
+	}
+		.le-rohe1 {
+			height: 100%;
+			width:100%;
+		}
+}
