@@ -1,3 +1,4 @@
+
 .inquire-h1 {
 	text-align: center;
 }
@@ -108,3 +109,14 @@ input[type='submit'] {
 	display: flex;
 	justify-content: center;
 }
+
+.inquire-ul {
+line-height: 1.3rem;
+}
+
+.services-h3 {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+}
+

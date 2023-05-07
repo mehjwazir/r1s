@@ -8,6 +8,7 @@ footer {
 	height: 7rem;
 	padding-top: 15px;
 
+
 	
 }
 
@@ -15,3 +16,12 @@ footer {
 	line-height: 1.5rem;
 }
 
+.copyright-div {
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+}
+.copyright {
+	font-size: 12px;
+	margin-bottom: 5vmin;
+}

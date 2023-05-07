@@ -18,6 +18,10 @@ const Footer = () => {
 					<li>Instagram</li>
 				</ul>
 			</div>
+			
+			<div className='copyright-div'>
+				<p className='copyright'>Rohe 1 Studio © 2023</p>
+			</div>
 		</footer>
 	)
 }

@@ -21,24 +21,30 @@ const Inquire = () => {
 	};
 
 	return (
-		<main>
-			<h1 className='inquire-h1'>Inquire</h1>
+		<main className='inquire-main'>
+			<h1 className='inquire-h1'>Inquiry</h1>
 			<div className='form-div'>
 				<form ref={form} onSubmit={sendEmail} >
 					<label>Name</label>
 					<input type="text" name="user_name" className='name-input' />
 					<label>Email</label>
-					<input type="email" name="user_email" className='user-input'/>
+					<input type="email" name="user_email" className='user-input' />
 					<label className='message-label'>Message</label>
 					<textarea name="message" />
-					<input type="submit" value="Submit" className='btn-submit'/>
+					<input type="submit" value="Submit" className='btn-submit' />
 				</form>
 
 			</div>
-			
-			<div className='inquire-div'>
 
-				<ul>
+
+			<div className='services-h3'>
+				<h3 >Services</h3>
+
+			</div>
+
+
+			<div className='inquire-div'>
+				<ul className='inquire-ul'>
 					<li>Brand Identity</li>
 					<li>Custom Logotype</li>
 					<li>Website Design & Development</li>
