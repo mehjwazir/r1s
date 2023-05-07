@@ -17,26 +17,32 @@ form {
 	flex-direction: column;
 	width: 100%;
 	font-size: 15px;
-	background-color: #F1EEE9;
 }
 
 input {
+	color: #a4a4a4;
 	width: auto;
 	height: 35px;
 	padding: 7px;
 	outline: none;
-	border-radius: 5px;
 	border: 1px solid rgb(220,228,220);
 	
 }
 
 textarea {
+color: #a4a4a4;
 	height: auto;
 	width: auto;
-	padding: 7px;
-	outline: none;
-	border-radius: 5px;
-	border: 1px solid rgba(220, 220, 220);
+	padding: 2rem;
+	border-radius: 0;
+	appearance: none;
+	font-size: inherit;
+	background: #F1EEE9;
+	line-height: 2rem;
+	letter-spacing: 0.04em;
+	resize: none;
+	outline: none !important;
+	
 }
 
 label {
@@ -44,9 +50,16 @@ label {
 }
 
 input[type='submit'] {
-	margin-top: 2rem;
-	cursor: pointer;
-	background:gray;
-	color: white;
-	border: none;
+	color: black;
+	margin-top: 3rem;
+		padding: 10px;
+		padding-right: 2rem;
+		padding-left: 2rem;
+		background-color:#F1EEE9;
+		border: 1px solid gray;
+		border-radius: none;
+}
+.btn-submit:hover {
+	background-color: black;
+	color: #F1EEE9;
 }
