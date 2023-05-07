@@ -9,7 +9,7 @@ function Studio() {
 	return (
 		
 		<main className='studio'>
-			<h1>The Studio</h1>
+			{/* <h1 className='studio-h1'></h1> */}
 {/* test gallery images add actual projects with links */}
 			<div className="gallery">
 				<div className="row">

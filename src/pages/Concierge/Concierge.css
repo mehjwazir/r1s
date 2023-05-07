@@ -1,3 +1,16 @@
-.concierge {
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@100&display=swap');
+
+
+.concierge-h1, .concierge-h2 {
 	text-align: center;
+	font-family: 'Ysabeau', sans-serif;
+}
+
+.privacy-p {
+
+	display: flex;
+		flex-direction: column;
+		line-height: 1.5rem;
+		font-size: 13px;
+		margin: 0 30vmin 0 30vmin;
 }
