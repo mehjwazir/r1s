@@ -22,7 +22,7 @@ const Inquire = () => {
 
 	return (
 		<main className='inquire-main'>
-			<h1 className='inquire-h1'>Inquiry</h1>
+			<h1 className='inquire-h1'>INQUIRY</h1>
 			<div className='form-div'>
 				<form ref={form} onSubmit={sendEmail} >
 					<label>Name</label>
@@ -38,7 +38,7 @@ const Inquire = () => {
 
 
 			<div className='services-h3'>
-				<h3 >Services</h3>
+				<h3 >SERVICES</h3>
 
 			</div>
 
