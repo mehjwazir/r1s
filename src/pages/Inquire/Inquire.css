@@ -5,3 +5,48 @@
 .inquire-div {
 	text-align: center;
 }
+
+
+.form-div {
+	width: auto;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	font-size: 15px;
+	background-color: #F1EEE9;
+}
+
+input {
+	width: auto;
+	height: 35px;
+	padding: 7px;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid rgb(220,228,220);
+	
+}
+
+textarea {
+	height: auto;
+	width: auto;
+	padding: 7px;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid rgba(220, 220, 220);
+}
+
+label {
+	margin-top: 1rem;
+}
+
+input[type='submit'] {
+	margin-top: 2rem;
+	cursor: pointer;
+	background:gray;
+	color: white;
+	border: none;
+}
