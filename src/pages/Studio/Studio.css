@@ -41,9 +41,10 @@
 
 .image {
 	width: auto;
-	height: 60vh;
+	height: 36vh;
 	object-fit: cover;
-	margin: 10px;
+	margin: 30px;
+	margin-top: 4rem;
 }
 
 
@@ -53,8 +54,10 @@
 	}
 
 	.image {
-		width: 80%;
-		height: auto;
-		margin: 10px auto;
+		width: auto;
+			height: 30vh;
+			object-fit: cover;
+			margin: 30px;
+			margin-top: 4rem;
 	}
 }
