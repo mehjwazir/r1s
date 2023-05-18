@@ -21,7 +21,7 @@ function Studio() {
 				<div className="row">
 					<Link to='/ip'><img src={Img1} alt="ip" className="image" /></Link>
 					<Link to='/ip'><img src={Img1} alt="ip" className="image" /></Link>
-					<Link to='/ip'><img src={Img1} alt="ip" className="image" /></Link>
+					<Link to='/ar'><img src={Img1} alt="ip" className="image" /></Link>
 					<Link to='/id'><img src={Img1} alt="ip" className="image" /></Link>
 				</div>
 			</div>

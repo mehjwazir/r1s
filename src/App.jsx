@@ -8,6 +8,7 @@ import About from './pages/About/About';
 import Studio from './pages/Studio/Studio';
 import IP from './pages/Studio/IP/IP';
 import ID from './pages/Studio/ID/ID';
+import AR from './pages/Studio/AR/AR';
 import Inquire from './pages/Inquire/Inquire';
 import Concierge from './pages/Concierge/Concierge';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/studio" element={<Studio />} />
           <Route path="/ip" element={<IP />} />
           <Route path="/id" element={<ID />} />
+          <Route path="/ar" element={<AR />} />
           <Route path="/inquire" element={<Inquire />} />
           <Route path="/concierge" element={<Concierge />} />
         </Routes>
