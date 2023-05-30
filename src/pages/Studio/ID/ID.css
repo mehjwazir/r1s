@@ -98,14 +98,37 @@
 		height: 70%;
 		width: 70%;
 	}
+
+	.img-4 {
+		height: 80%;
+		width: 90%;
+		
+	}
+
+	.img-5 {
+		height: 60%;
+		width: 60%;
+		display: flex;
+		justify-content: center;
+		margin-left: 5.8rem !important;
+	}
+
+	.img5-div {
+		display: flex !important;
+		justify-content: center !important;
+	}
 }
 
+.img-4 {
+	margin-top: 7rem;
+}
 
 .img5-div {
 	padding: 5rem;
-	margin: 5rem;
+	margin: 5rem 5rem 5rem 0;
 	
 }
 .img-5 {
-	margin-left: 3rem;
+	margin-top: 7rem;
+	margin-left: 8rem;
 }

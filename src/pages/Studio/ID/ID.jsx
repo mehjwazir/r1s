@@ -33,7 +33,7 @@ function ID() {
 			</div>
 
 			<div>
-				<img src={Img4} alt="img4" />
+				<img src={Img4} alt="img4" className="img-4" />
 			</div>
 
 			<div className="row">
