@@ -15,7 +15,7 @@ const Footer = () => {
 						<Link to="/concierge">Concierge</Link>
 
 					</li>
-					<li><a href="https://www.instagram.com/rohe1studio/">Instagram</a></li>
+					<li><a href="https://www.instagram.com/rohe1studio/" target='blank'>Instagram</a></li>
 				</ul>
 			</div>
 			
