@@ -11,13 +11,14 @@ import ID from './pages/Studio/ID/ID';
 import AR from './pages/Studio/AR/AR';
 import Inquire from './pages/Inquire/Inquire';
 import Concierge from './pages/Concierge/Concierge';
+import ScrollToTop from "./components/ScrollToTop";
 
 
 
 function App() {
   return (
     <>
-      <main>
+      <ScrollToTop />
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -28,10 +29,11 @@ function App() {
           <Route path="/id" element={<ID />} />
           <Route path="/ar" element={<AR />} />
           <Route path="/inquire" element={<Inquire />} />
-          <Route path="/concierge" element={<Concierge />} />
+        <Route path="/concierge" element={<Concierge />} />
+      
         </Routes>
         <Footer />
-      </main>
+  
    
     </>
   
