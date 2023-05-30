@@ -1,3 +1,111 @@
 .id-main {
 	text-align: center;
+	font-size: 13px;
+}
+
+
+.id-div {
+	margin-top: 6rem;
+	margin-bottom: 10rem;
+	display: flex;
+	justify-content: right;
+}
+
+.id-img {
+	height: 70%;
+	width: 70%;
+}
+
+
+@media only screen and (max-width: 730px) {
+	.id-img {
+		height: 90%;
+		width: 90%;
+	}
+}
+
+.img2-div {
+	margin-bottom: 20rem;
+}
+
+.img-2 {
+	height: 40%;
+	width: 40%;
+	transform: rotate(90deg);
+}
+
+.row {
+	display: flex;
+	margin-top: 9rem;
+}
+
+.row2 {
+	margin-bottom: 5rem;
+}
+
+.column {
+	flex: 50%;
+}
+
+.col2 {
+	padding: 70px;
+	margin: 90px;
+	line-height: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+	.row {
+		flex-direction: column;
+	}
+
+	.column {
+		flex: 100%;
+	}
+
+	.col1 {
+		padding: 20px;
+	}
+
+	.row2 {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.col2 {
+		flex: 1;
+		padding: 10px;
+	}
+
+	.co2 {
+		order: 2;
+	}
+
+	.col2:first-child {
+		order: 1;
+	}
+
+	.img2-div {
+		margin-bottom: 18rem;
+	}
+
+	.img-2 {
+		height: 80%;
+		width: 80%;
+		margin-top: 5rem;
+	}
+
+	.img-3 {
+		height: 70%;
+		width: 70%;
+	}
+}
+
+
+.img5-div {
+	padding: 5rem;
+	margin: 5rem;
+	
+}
+.img-5 {
+	margin-left: 3rem;
 }
