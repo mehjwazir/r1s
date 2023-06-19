@@ -1,3 +1,23 @@
 .ar-main {
 	text-align: center;
 }
+
+.img1-ar {
+	height: 55%;
+	width: 55%;
+}
+
+.img2-ar {
+	height: 45%;
+	width: 45%;
+}
+
+.img1-ar-div {
+	margin-top: 5rem;
+	margin-left: 30rem;
+}
+
+.img2-ar-div {
+	margin-top: 3rem;
+	margin-right: 20rem;
+}
