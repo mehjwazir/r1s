@@ -8,16 +8,20 @@
 }
 
 .img2-ar {
-	height: 45%;
-	width: 45%;
+	height:60%;
+	width: 60%;
 }
 
 .img1-ar-div {
 	margin-top: 5rem;
-	margin-left: 30rem;
+	margin-right: 10rem;
+	display: flex;
+	justify-content: right;
 }
 
 .img2-ar-div {
-	margin-top: 3rem;
-	margin-right: 20rem;
+	margin-top: 15rem;
+	/* margin-right:30rem; */
+	display: flex;
+	justify-content: left;
 }
