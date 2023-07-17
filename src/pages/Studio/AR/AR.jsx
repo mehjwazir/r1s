@@ -2,6 +2,10 @@ import "./AR.css"
 import Img1 from "./files/img1.png"
 import Img2 from "./files/img2.png"
 import Img3 from "./files/img3.png"
+import Img4 from "./files/img4.png"
+import Img5 from "./files/img5.png"
+import Img6 from "./files/img6.png"
+import Img8 from "./files/img8.png"
 
 
 export default function AR() {
@@ -20,8 +24,23 @@ export default function AR() {
 
 				</div>
 				<div>
-					<img src={Img3} alt="img3" className="img-3" />
+					<img src={Img3} alt="img3" className="img3-ar" />
 				</div>
+			</div>
+			<div>
+				<img src={Img4} alt="img4" className="img4-ar" />
+			</div>
+			<div className="image-container-ar">
+				<img src={Img5} alt="img5" className="img5-ar image-ar" />
+				<p className="img5-paragraph-ar">
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+				</p>
+			</div>
+			<div>
+				<img src={Img6} alt="img6" className="img6-ar"/>
+			</div>
+			<div>
+				<img src={Img8} alt="img8" className="img8-ar" />
 			</div>
 
 		</main>

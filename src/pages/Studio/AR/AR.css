@@ -21,7 +21,79 @@
 
 .img2-ar-div {
 	margin-top: 15rem;
-	/* margin-right:30rem; */
+
 	display: flex;
-	justify-content: left;
+	justify-content: center;
+}
+
+.img3-ar {
+	margin-right: 5rem;
+}
+
+.img4-ar {
+	height: 60%;
+	width: 60%;;
+}
+
+.image-container-ar {
+	align-items: center;
+	float: left;
+	display: flex;
+	margin-top: 5rem;
+}
+
+.image-ar{
+	float: left;
+	
+}
+
+.img5-paragraph-ar {
+	padding: 5rem;
+	display: flex;
+
+}
+
+.img5-ar {
+	height: 50%;
+	width: 50%;
+}
+
+.img6-ar {
+	margin-top: 7rem;
+	height: 80%;
+	width: 70%;
+}
+
+
+.img7-ar {
+	height: 40%;
+	width: 15%;
+}
+@media (max-width: 768px) {
+
+	.img1-ar {
+	height: 100%;
+	width: 100%;
+}
+
+.img2-ar {
+	height: 80%;
+	width: 80%;
+}
+	.img3-ar {
+		margin: 0;
+	}
+
+.img1-ar-div {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.img2-ar-div {
+	margin-top: 10rem;
+	display: flex;
+	justify-content: center;
+}
+
 }
