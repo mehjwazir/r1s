@@ -5,7 +5,7 @@ import Img3 from "./files/img3.png"
 import Img4 from "./files/img4.png"
 import Img5 from "./files/img5.png"
 import Img6 from "./files/img6.png"
-import Img7 from "./files/img7.png"
+
 
 
 
@@ -59,9 +59,7 @@ function ID() {
 			<div>
 				<img src={Img6} alt="img6" className="img-6" />
 			</div>
-			{/* <div>
-				<img src={Img7} alt="img7" className="img-7" />
-			</div> */}
+			
 
 		
 		</main>
