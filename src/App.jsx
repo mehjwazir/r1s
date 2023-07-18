@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Shop from './pages/Shop/Shop';
 import About from './pages/About/About';
 import Studio from './pages/Studio/Studio';
+import R1S from './pages/Studio/R1S/R1S';
 import Type from './pages/Studio/Type/Type';
 import HF from './pages/Studio/HF/HF';
 import HS from './pages/Studio/HS/HS';
@@ -22,27 +23,28 @@ function App() {
   return (
     <>
       <ScrollToTop />
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/studio" element={<Studio />} />
-          <Route path="/type" element={<Type />} />
-          <Route path="/hf" element={<HF />} />
-          <Route path="/hasu" element={<HS />} />
-          <Route path="/ip" element={<IP />} />
-          <Route path="/id" element={<ID />} />
-          <Route path="/aura" element={<AR />} />
-          <Route path="/inquire" element={<Inquire />} />
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/studio" element={<Studio />} />
+        <Route path="/type" element={<Type />} />
+        <Route path="/r1s" element={<R1S />} />
+        <Route path="/hf" element={<HF />} />
+        <Route path="/hasu" element={<HS />} />
+        <Route path="/ip" element={<IP />} />
+        <Route path="/id" element={<ID />} />
+        <Route path="/aura" element={<AR />} />
+        <Route path="/inquire" element={<Inquire />} />
         <Route path="/concierge" element={<Concierge />} />
-      
-        </Routes>
-        <Footer />
-  
-   
+
+      </Routes>
+      <Footer />
+
+
     </>
-  
+
   );
 }
 
