@@ -1,0 +1,12 @@
+.hf {
+	text-align: center;
+	
+}
+
+
+
+.img1-hf, .img2-hf, .img3-hf, .img4-hf, .img5-hf  {
+	height: 60%;
+	width: 60%;
+	margin-top: 10rem;
+}
