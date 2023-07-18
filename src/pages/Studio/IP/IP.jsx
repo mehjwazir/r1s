@@ -36,7 +36,9 @@ function IP() {
 				<img src={Img6} alt="img6" className='img6-ip image-ip' />
 				<p className='img6-paragraph-ip'>
 					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+					<a href="https://inner-peace.up.railway.app/">IP</a>
 				</p>
+			
 			</div>
 			<div>
 				<img src={Img7} alt="img7" className='img7-ip' />

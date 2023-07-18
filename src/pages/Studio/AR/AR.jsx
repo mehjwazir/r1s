@@ -34,6 +34,7 @@ export default function AR() {
 				<img src={Img5} alt="img5" className="img5-ar image-ar" />
 				<p className="img5-paragraph-ar">
 					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+					<a href="https://aura.up.railway.app/">Aura</a>
 				</p>
 			</div>
 			<div>
