@@ -1,10 +1,13 @@
 import './HS.css'
+import Img1 from './files/img1.jpg'
 
 
 function HS() {
 	return (
 		<main>
-			<h1>HASU</h1>
+			<div>
+				<img src={ Img1} alt="img1-hs" className='img1-hs' />
+			</div>
 
 		</main>
 	)
