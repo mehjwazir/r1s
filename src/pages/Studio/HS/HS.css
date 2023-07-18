@@ -1,4 +1,14 @@
+.hs {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
 .img1-hs {
 	height: 50%;
 	width: 50%;
+	margin-top: 10rem;
 }
