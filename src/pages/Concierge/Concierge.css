@@ -4,6 +4,17 @@
 .concierge-h1, .concierge-h2 {
 	text-align: center;
 	font-family: 'Ysabeau', sans-serif;
+	
+}
+
+.concierge-h1 {
+	margin-top: 10rem;
+	font-size: 40px;
+}
+
+.concierge-h2 {
+	margin-top: 2rem;
+	font-size: 17px;
 }
 
 .privacy-p {
@@ -11,8 +22,9 @@
 	display: flex;
 		flex-direction: column;
 		line-height: 1.5rem;
-		font-size: 13px;
+		font-size: 15px;
 		margin: 0 30vmin 0 30vmin;
+		padding: 5rem 15rem 30rem 15rem;
 }
 
 @media only screen and (max-width: 530px) {

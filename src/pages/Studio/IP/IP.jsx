@@ -19,9 +19,11 @@ function IP() {
 			<div>
 				<img src={Img3} alt="img3" className='img3-ip' />
 			</div>
-			<div>
-				
-				<img src={Img4} alt="img4" className='img4-ip' />
+			<div className='image-container-ip'>
+				<p className='img4-paragraph-ip'>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+				</p>
+				<img src={Img4} alt="img4" className='img4-ip image-ip' />
 			</div>
 		
 		</main>

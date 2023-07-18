@@ -30,3 +30,27 @@
 	height: 50%;
 	width: 50%;
 }
+
+.image-container-ip {
+	align-items: center;
+	float: left;
+	display: flex;
+	margin-top: 15rem;
+}
+
+.image-ip{
+	float: left;
+	
+}
+
+.img4-paragraph-ip {
+	padding: 10rem;
+	display: flex;
+
+}
+
+.img4-ip {
+	height: 30%;
+	width: 30%;
+	margin-right: 7rem;
+}
