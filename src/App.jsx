@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Shop from './pages/Shop/Shop';
 import About from './pages/About/About';
 import Studio from './pages/Studio/Studio';
+import HS from './pages/Studio/HS/HS';
 import IP from './pages/Studio/IP/IP';
 import ID from './pages/Studio/ID/ID';
 import AR from './pages/Studio/AR/AR';
@@ -25,9 +26,10 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/about" element={<About />} />
           <Route path="/studio" element={<Studio />} />
+          <Route path="/hasu" element={<HS />} />
           <Route path="/ip" element={<IP />} />
           <Route path="/id" element={<ID />} />
-          <Route path="/ar" element={<AR />} />
+          <Route path="/aura" element={<AR />} />
           <Route path="/inquire" element={<Inquire />} />
         <Route path="/concierge" element={<Concierge />} />
       
