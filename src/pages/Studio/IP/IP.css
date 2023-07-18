@@ -6,3 +6,27 @@
 	height: 20%;
 	width: 20%;
 }
+
+
+.img1-ip-div {
+	margin-top: 8rem;
+}
+
+.img1-ip {
+	height: 30%;
+	width: 30%;
+	margin-left: 5rem;
+}
+
+.img2-ip {
+	height: 20%;
+	width: 20%;
+	margin-right: 10rem;
+	margin-bottom: 7rem;
+}
+
+.img3-ip {
+	margin-top: 10rem;
+	height: 50%;
+	width: 50%;
+}
