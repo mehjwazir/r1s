@@ -1,7 +1,7 @@
 import './HS.css'
 import Img1 from './files/img1.jpg'
 import Img2 from './files/img2.jpg'
-import Img3 from './files/img3.jpg'
+import Img3 from './files/img3.png'
 import Img4 from './files/img4.jpg'
 import Img5 from './files/img5.png'
 
