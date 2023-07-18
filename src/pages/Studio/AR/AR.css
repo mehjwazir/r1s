@@ -27,10 +27,12 @@
 }
 
 .img3-ar {
+	margin-top: 5rem;
 	margin-right: 5rem;
 }
 
 .img4-ar {
+	margin-top: 10rem;
 	height: 60%;
 	width: 60%;;
 }
@@ -54,20 +56,22 @@
 }
 
 .img5-ar {
-	height: 50%;
-	width: 50%;
+	margin-top: 15rem;
+	margin-left: 8rem;
+	height: 40%;
+	width: 40%;
 }
 
 .img6-ar {
-	margin-top: 7rem;
+	margin-top: 15rem;
 	height: 80%;
 	width: 70%;
 }
 
 
-.img7-ar {
-	height: 40%;
-	width: 15%;
+.img8-ar {
+	margin-top: 10rem;
+	
 }
 @media (max-width: 768px) {
 
