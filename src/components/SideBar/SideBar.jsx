@@ -12,11 +12,11 @@ const SideBar = () => {
 	return (
 		<>
 			<div className="hamburger-menu" onClick={toggleMenu}>
-				<div className="hamburger-line"></div>
+				<div className="hamburger-line" ></div>
 				<div className="hamburger-line"></div>
 				<div className="hamburger-line"></div>
 			</div>
-			<div className={`sidebar sidebar-links ${isOpen ? "open" : ""}`}>
+			<div className={`sidebar sidebar-links ${!isOpen ? "open" : ""}`}>
 				<Link className="home-a " to="/" onClick={toggleMenu}>
 					Home
 				</Link>
