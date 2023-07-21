@@ -30,13 +30,17 @@ export default function AR() {
 			<div>
 				<img src={Img4} alt="img4" className="img4-ar" />
 			</div>
-			<div className="image-container-ar">
-				<img src={Img5} alt="img5" className="img5-ar image-ar" />
-				<p className="img5-paragraph-ar">
-					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-					<a href="https://aura.up.railway.app/">Aura</a>
-				</p>
+			<div className="row row2">
+				<img src={Img5} alt="img5" className="img5-ar" />
+				<div className="column co2 col2">
+				
+					<p>
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+						<a href="https://aura.up.railway.app/">Aura</a>
+					</p>
+				</div>
 			</div>
+		
 			<div>
 				<img src={Img6} alt="img6" className="img6-ar"/>
 			</div>

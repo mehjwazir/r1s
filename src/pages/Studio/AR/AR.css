@@ -29,6 +29,8 @@
 .img3-ar {
 	margin-top: 5rem;
 	margin-right: 5rem;
+	height: 80%;
+	width: 60%;
 }
 
 .img4-ar {
@@ -37,33 +39,17 @@
 	width: 60%;;
 }
 
-.image-container-ar {
-	align-items: center;
-	float: left;
-	display: flex;
-	margin-top: 5rem;
-}
 
-.image-ar{
-	float: left;
-	
-}
-
-.img5-paragraph-ar {
-	padding: 5rem;
-	display: flex;
-
-}
 
 .img5-ar {
-	margin-top: 15rem;
-	margin-left: 8rem;
-	height: 40%;
-	width: 40%;
+	height: 100%;
+	width: 50%;
+	margin-top: 6rem;
+	margin-left: 5rem;
 }
 
 .img6-ar {
-	margin-top: 15rem;
+	margin-top: 8rem;
 	height: 80%;
 	width: 70%;
 }
@@ -74,6 +60,12 @@
 	
 }
 @media (max-width: 768px) {
+
+	.ar-main {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
 
 	.img1-ar {
 	height: 100%;
@@ -100,4 +92,32 @@
 	justify-content: center;
 }
 
+
+.img3-ar {
+	height: 70%;
+	width: 60%;
+}
+
+.img4-ar {
+	margin-top: 0;
+	height: 80%;
+	width: 80%;
+}
+
+.img5-ar {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	height: 100%;
+	width: 90%;
+}
+
+.img6-ar {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+.img8-ar {
+	height: 50%;
+	width: 50%;
+}
 }
