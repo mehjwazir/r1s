@@ -87,6 +87,12 @@
 }
 
 @media (max-width: 768px) {
+
+	.ip{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
 	.img1-ip {
 	height: 50%;
 	width: 50%;
@@ -110,5 +116,21 @@
 	margin-left: 7rem;
 	height: 60%;
 	width: 60%;
+}
+
+.img5-ip {
+	margin: 0;
+	height: 80%;
+	width: 80%;
+}
+
+.img6-ip {
+	height: 70%;
+	width: 70%;
+}
+.img7-ip {
+	margin: 0;
+	height: 60%;
+	width: 80%;
 }
 }
