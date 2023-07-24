@@ -1,11 +1,14 @@
 import './CR.css'
+import Img1 from './files/Img1.png'
 
 
 
 function CR() {
 	return (
 		<main>
-			<h1>CR</h1>
+			<div>
+				<img src={Img1} alt="image" className='img1-cr' />
+		</div>
 		</main>
 	)
 }
