@@ -2,6 +2,7 @@ import './Studio.css'
 import { Link} from 'react-router-dom';
 import Img1 from './files/Type.png'
 import Img2 from './files/R1S.png'
+import Img3 from './files/CR.jpg'
 import Img4 from './files/HF.png'
 import Img5 from './files/HASU.png'
 import Img6 from './files/IPP.png'
@@ -20,7 +21,7 @@ function Studio() {
 				<div>
 					<Link to='/type'><img src={Img1} alt="type" className="image" /></Link>
 					<Link to='/r1s'><img src={Img2} alt="r1s" className="image" /></Link>
-					<Link to='/ip'><img src={Img1} alt="ip" className="image" /></Link>
+					<Link to='/cr'><img src={Img3} alt="cr" className="image" /></Link>
 					<Link to='/hf'><img src={Img4} alt="hf" className="image" /></Link>
 				</div>
 				<div>
