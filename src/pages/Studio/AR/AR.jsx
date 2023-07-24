@@ -36,7 +36,7 @@ export default function AR() {
 				
 					<p>
 						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-						<a href="https://aura.up.railway.app/">Aura</a>
+						<a href="https://aura.up.railway.app/" target="blank">Aura</a>
 					</p>
 				</div>
 			</div>

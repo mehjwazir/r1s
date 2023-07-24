@@ -41,7 +41,7 @@ function IP() {
 				<div className='col col2'>
 					<p>
 						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-						<a href="https://inner-peace.up.railway.app/">IP</a>
+						<a href="https://inner-peace.up.railway.app/" target='blank'>IP</a>
 					</p>
 				</div>
 			
