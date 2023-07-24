@@ -6,8 +6,9 @@ import Home from './pages/Home/Home';
 import Shop from './pages/Shop/Shop';
 import About from './pages/About/About';
 import Studio from './pages/Studio/Studio';
-import R1S from './pages/Studio/R1S/R1S';
 import Type from './pages/Studio/Type/Type';
+import R1S from './pages/Studio/R1S/R1S';
+import CR from './pages/Studio/CR/CR';
 import HF from './pages/Studio/HF/HF';
 import HS from './pages/Studio/HS/HS';
 import IP from './pages/Studio/IP/IP';
@@ -31,6 +32,7 @@ function App() {
         <Route path="/studio" element={<Studio />} />
         <Route path="/type" element={<Type />} />
         <Route path="/r1s" element={<R1S />} />
+        <Route path="/cr" element={<CR />} />
         <Route path="/hf" element={<HF />} />
         <Route path="/hasu" element={<HS />} />
         <Route path="/ip" element={<IP />} />
