@@ -5,9 +5,9 @@ import Img1 from './files/Img1.png'
 
 function CR() {
 	return (
-		<main>
+		<main className='cr'>
 			<div>
-				<img src={Img1} alt="image" className='img1-cr' />
+				<img src={Img1} alt="cors" className='img1-cr' />
 		</div>
 		</main>
 	)

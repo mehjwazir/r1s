@@ -1,0 +1,12 @@
+.cr {
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.img1-cr {
+	margin-top: 7rem;
+	height: 60%;
+	width: 60%;
+}
