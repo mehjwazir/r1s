@@ -19,16 +19,16 @@ function Studio() {
 		<main className='studio'>
 			<div className="gallery">
 				<div>
-					<Link to='/type'><img src={Img1} alt="type" className="image" /></Link>
-					<Link to='/r1s'><img src={Img2} alt="r1s" className="image" /></Link>
-					<Link to='/cr'><img src={Img3} alt="cr" className="image" /></Link>
-					<Link to='/hf'><img src={Img4} alt="hf" className="image" /></Link>
+					<Link to='/type'><img src={Img1} alt="type" className="image filter" /></Link>
+					<Link to='/r1s'><img src={Img2} alt="r1s" className="image filter" /></Link>
+					<Link to='/cr'><img src={Img3} alt="cr" className="image filter" /></Link>
+					<Link to='/hf'><img src={Img4} alt="hf" className="image filter" /></Link>
 				</div>
 				<div>
-					<Link to='/hasu'><img src={Img5} alt="hasu" className="image" /></Link>
-					<Link to='/ip'><img src={Img6} alt="ip" className="image" /></Link>
-					<Link to='/aura'><img src={Img7} alt="ar" className="image" /></Link>
-					<Link to='/id'><img src={Img8} alt="id" className="image" /></Link>
+					<Link to='/hasu'><img src={Img5} alt="hasu" className="image filter" /></Link>
+					<Link to='/ip'><img src={Img6} alt="ip" className="image filter" /></Link>
+					<Link to='/aura'><img src={Img7} alt="ar" className="image filter" /></Link>
+					<Link to='/id'><img src={Img8} alt="id" className="image filter" /></Link>
 				</div>
 			</div>
 		</main>
