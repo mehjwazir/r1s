@@ -19,6 +19,7 @@ function Studio() {
 		<main className='studio'>
 			<div className="gallery">
 				<div>
+					{/* Add description to photos and fix the two that need to be color. */}
 					<Link to='/type'><img src={Img1} alt="type" className="image filter" /></Link>
 					<Link to='/r1s'><img src={Img2} alt="r1s" className="image filter" /></Link>
 					<Link to='/cr'><img src={Img3} alt="cr" className="image filter" /></Link>
