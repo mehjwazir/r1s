@@ -2,6 +2,7 @@ import './CR.css'
 import Img1 from './files/Img1.png'
 import Img2 from './files/Img2.png'
 import Img3 from './files/Img3.png'
+import Img4 from './files/Img4.png'
 
 
 
@@ -16,6 +17,9 @@ function CR() {
 			</div>
 			<div>
 				<img src={Img3} alt="cors" className='img1-cr' />
+			</div>
+			<div>
+				<img src={Img4} alt="cors" className='img1-cr' />
 			</div>
 		</main>
 	)
