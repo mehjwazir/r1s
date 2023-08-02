@@ -21,6 +21,7 @@ function CR() {
 			<div>
 				<img src={Img4} alt="cors" className='img1-cr' />
 			</div>
+			{/* add more designs  */}
 		</main>
 	)
 }
