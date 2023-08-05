@@ -27,14 +27,15 @@
 		padding: 5rem 15rem 30rem 15rem;
 }
 
-@media only screen and (max-width: 530px) {
+@media screen and (max-width: 768px) {
 
-.privacy-p {
-
+.privacy-policy {
 		display: flex;
 		flex-direction: column;
 		line-height: 1.5rem;
-		font-size: 13px;
-		margin: 4rem;
+		font-size: 15px;
+		margin: 1rem 1rem 1rem 1rem;
+		padding: 1rem 1rem 1rem 1rem;
+	
 	}
 }
