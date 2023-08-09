@@ -1,8 +1,8 @@
 import './CR.css'
-import Img1 from '../files/img1.png'
-import Img2 from '../files/img2.png'
-import Img3 from '../files/img3.png'
-import Img4 from '../files/img4.png'
+import Img1 from './imgfile/img1.png'
+import Img2 from './imgfile/img2.png'
+import Img3 from './imgfile/img3.png'
+import Img4 from './imgfile/img4.png'
 
 
 
