@@ -12,44 +12,19 @@ import Img8 from './files/ID.png'
 function Studio() {
 	return (
 		<main className='studio'>
-			{/* <section className='studio-gallery'>
-			<div className='project'>
-					
-			</div>
-			</section> */}
 			<div className="gallery">
-				<Link to='/type' className="image-container">
-					<img src={Img1} alt="type" className="image filter" />
-					<p className="image-description">Description for Image 1</p>
-				</Link>
-				<Link to='/r1s' className="image-container">
-					<img src={Img2} alt="r1s" className="image filter" />
-					<p className="image-description">Description for Image 2</p>
-				</Link>
-				<Link to='/cr' className="image-container">
-					<img src={Img3} alt="cr" className="image filter" />
-					<p className="image-description">Description for Image 3</p>
-				</Link>
-				<Link to='/hf' className="image-container">
-					<img src={Img4} alt="hf" className="image filter" />
-					<p className="image-description">Description for Image 4</p>
-				</Link>
-				<Link to='/hasu' className="image-container">
-					<img src={Img5} alt="hasu" className="image filter" />
-					<p className="image-description">Description for Image 5</p>
-				</Link>
-				<Link to='/ip' className="image-container">
-					<img src={Img6} alt="ip" className="image filter" />
-					<p className="image-description">Description for Image 6</p>
-				</Link>
-				<Link to='/aura' className="image-container">
-					<img src={Img7} alt="aura" className="image filter" />
-					<p className="image-description">Description for Image 7</p>
-				</Link>
-				<Link to='/id' className="image-container ">
-					<img src={Img8} alt="id" className="image filter" />
-					<p className="image-description">Description for Image 8</p>
-				</Link>
+				<div>
+					<Link to='/type'><img src={Img1} alt="type" className="image" /></Link>
+					<Link to='/r1s'><img src={Img2} alt="r1s" className="image" /></Link>
+					<Link to='/cr'><img src={Img3} alt="cr" className="image" /></Link>
+					<Link to='/hf'><img src={Img4} alt="hf" className="image" /></Link>
+				</div>
+				<div>
+					<Link to='/hasu'><img src={Img5} alt="hasu" className="image" /></Link>
+					<Link to='/ip'><img src={Img6} alt="ip" className="image" /></Link>
+					<Link to='/aura'><img src={Img7} alt="ar" className="image" /></Link>
+					<Link to='/id'><img src={Img8} alt="id" className="image" /></Link>
+				</div>
 			</div>
 		</main>
 	)
