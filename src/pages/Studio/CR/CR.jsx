@@ -11,6 +11,7 @@ function CR() {
 		<main className='cr'>
 			<div>
 				<img src={Img1} alt="cors" className='img1-cr' />
+				<p>test</p>
 			</div>
 			<div>
 				<img src={Img2} alt="cors" className='img1-cr' />
