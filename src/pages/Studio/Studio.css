@@ -7,6 +7,24 @@
 	font-family: 'Ysabeau', sans-serif;
 }
 
+
+/* 
+.studio-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 70.5rem;
+	min-height: 50vh;
+	margin: auto;
+} */
+
+
+
+
+
+
+
+
+
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
@@ -26,6 +44,7 @@
 	width: auto;
 	height: 36vh;
 	object-fit: cover;
+	
 }
 
 .image-description {
@@ -45,7 +64,7 @@
 	transform: scale(1.01);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
 	.gallery {
 		display: block;
 	}
@@ -54,9 +73,15 @@
 		width: auto;
 		height: 30vh;
 		object-fit: cover;
-		margin: 30px;
+		margin: 2rem;
 		margin-top: 4rem;
 	}
+
+	.image-container {
+		margin: 3rem;
+
+
+}
 }
 
 .id-site {

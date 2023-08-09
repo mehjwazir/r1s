@@ -12,6 +12,11 @@ import Img8 from './files/ID.png'
 function Studio() {
 	return (
 		<main className='studio'>
+			{/* <section className='studio-gallery'>
+			<div className='project'>
+					
+			</div>
+			</section> */}
 			<div className="gallery">
 				<Link to='/type' className="image-container">
 					<img src={Img1} alt="type" className="image filter" />
