@@ -34,10 +34,21 @@ export default function AR() {
 				<img src={Img5} alt="img5" className="img5-ar" />
 				<div className="column co2 col2">
 				
-					<p>
-						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-						<a href="https://aura.up.railway.app/" target="blank">Aura</a>
-					</p>
+					
+						<p>
+							<a href="https://aura.up.railway.app/" className="id-site" target="blank">Aura</a> <br />
+							2022 <br />
+							<br />
+
+							Visual Identity <br />
+							Web Design <br />
+							Web Development <br />
+							Mobile Design <br />
+							Logo <br />
+
+						</p>
+					
+				
 				</div>
 			</div>
 		
