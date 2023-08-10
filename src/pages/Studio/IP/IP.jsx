@@ -26,7 +26,7 @@ function IP() {
 			<div className="row row2">
 				<div className='col col2'>
 					<p>
-						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+						Inner Peace serves as a tranquil haven, inviting you to embark on a harmonious exploration of the interconnected realms of mind, body, soul, and nature. With a wealth of wisdom and inspiration, we offer an array of carefully curated resources that empower you to cultivate a deeper understanding of yourself and the world around you. Delve into mindfulness practices that soothe the mind, engage in revitalizing activities that rejuvenate the body, embrace spiritual insights that nourish the soul, and revel in the awe-inspiring beauty of nature's embrace. This digital oasis is your gateway to finding serenity in the midst of life's bustling currents, a virtual refuge where you can harmonize your being and draw endless inspiration for a more balanced and fulfilling existence.
 					</p>
 				</div>
 				
@@ -38,10 +38,20 @@ function IP() {
 			</div>
 			<div className="row row2">
 				<img src={Img6} alt="img6" className='img6-ip' />
-				<div className='col col2'>
+				<div className=' column col col2'>
+			
 					<p>
-						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sin it occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-						<a href="https://inner-peace.up.railway.app/" target='blank'>IP</a>
+						<a href="https://inner-peace.up.railway.app/" className="id-site" target="blank">Inner Peace </a> <br />
+						2023 <br />
+						<br />
+						 <br />
+						Visual Identity <br />
+						Web Design <br />
+						Web Development <br />
+						Mobile Design <br />
+						Logo <br />
+						The website is currently undergoing development and enhancements.
+
 					</p>
 				</div>
 			
