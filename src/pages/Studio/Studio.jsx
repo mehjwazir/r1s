@@ -1,13 +1,13 @@
 import './Studio.css'
 import { Link } from 'react-router-dom';
-import Img1 from './files/Type.png'
-import Img2 from './files/R1S.png'
-import Img3 from './files/CR.jpg'
-import Img4 from './files/HF.png'
-import Img5 from './files/HASU.png'
-import Img6 from './files/IPP.png'
-import Img7 from './files/Aura.png'
-import Img8 from './files/ID.png'
+import Img1 from './files/1.png'
+import Img2 from './files/2.png'
+import Img3 from './files/3.png'
+import Img4 from './files/4.png'
+import Img5 from './files/5.png'
+import Img6 from './files/6.png'
+import Img7 from './files/7.png'
+import Img8 from './files/8.png'
 
 function Studio() {
 	return (
