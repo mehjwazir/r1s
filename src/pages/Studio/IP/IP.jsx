@@ -41,7 +41,7 @@ function IP() {
 				<div className=' column col col2'>
 			
 					<p>
-						<a href="https://inner-peace.up.railway.app/" className="id-site" target="blank">Inner Peace </a> <br />
+						<a href="https://inner-peace.up.railway.app/" className="id-site" target="_blank" rel="noopener noreferrer">Inner Peace </a> <br />
 						2023 <br />
 						<br />
 						 <br />

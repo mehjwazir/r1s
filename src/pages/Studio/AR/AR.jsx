@@ -36,7 +36,7 @@ export default function AR() {
 				
 					
 						<p>
-							<a href="https://aura.up.railway.app/" className="id-site" target="blank">Aura</a> <br />
+						<a href="https://aura.up.railway.app/" className="id-site" target="_blank" rel="noopener noreferrer">Aura</a> <br />
 							2022 <br />
 							<br />
 

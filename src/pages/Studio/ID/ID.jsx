@@ -43,7 +43,7 @@ function ID() {
 				</div>
 				<div className="column img5-div">
 					<p>
-						<a href="https://interior-design.up.railway.app/" className="id-site" target="blank">Interior Design</a> <br />
+						<a href="https://interior-design.up.railway.app/" className="id-site" target="_blank" rel="noopener noreferrer">Interior Design</a> <br />
 						2022 <br />
 						<br />
 
