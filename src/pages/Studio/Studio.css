@@ -70,7 +70,7 @@ transition: background .30s ease-in-out;
 	filter: sepia(10%);
 	filter: saturate(140%);
 
-
+}
 
 .id-site {
 	color: black;
