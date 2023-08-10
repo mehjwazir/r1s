@@ -26,6 +26,7 @@ function Studio() {
 					<Link to='/id'><img src={Img8} alt="id" className="image filter" /></Link>
 				</div>
 			</div>
+			{/* Work on 4 more projects add one each week  */}
 		</main>
 	)
 }
