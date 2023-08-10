@@ -59,18 +59,16 @@ transition: background .30s ease-in-out;
 }
 
 .filter {
-filter: brightness(95%);
-	
-}
+     filter: brightness(93%);
+  }
 
-.filter:hover {
-	filter: grayscale(0);
-	transform: scale(1);
-transition: background .30s ease-in-out; 
-	filter: brightness(110%);
-	filter: sepia(10%);
-		filter: saturate(140%);
-}
+  .filter:hover {
+	  filter: brightness(110%);
+    filter: none; /* Remove all filters */
+    transform: none; /* Reset transform */
+    transition: none; /* Reset transition */
+  }
+
 
 
 .id-site {
