@@ -46,9 +46,12 @@ transition: background .30s ease-in-out;
 /* test  */
 
 @media (max-width: 768px) {
-	.gallery {
-		display: block;
-	}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 5rem;
+}
 
 .image {
 		width: auto;
