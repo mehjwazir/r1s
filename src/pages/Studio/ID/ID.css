@@ -1,6 +1,9 @@
 .id-main {
 	text-align: center;
 	font-size: 13px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -54,6 +57,14 @@
 }
 
 @media screen and (max-width: 768px) {
+
+	.id-main {
+	text-align: center;
+	font-size: 13px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 	.row {
 		flex-direction: column;
 	}
