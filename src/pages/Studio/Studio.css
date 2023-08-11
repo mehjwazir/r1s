@@ -39,14 +39,15 @@ filter: brightness(93%);
     filter: brightness(110%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575px) {
   .gallery {
         margin-top: 3rem; /* Adjust the margin for smaller screens */
     }
    .image {
-        width: calc(45% - 30px); /* Adjust the width for smaller screens */
-        margin: 10px; /* Adjust the margin for smaller screens */
-    }
+	height: auto;
+        width: calc(43% - 14px); /* Adjust the width for smaller screens */
+        margin: 13px; /* Adjust the margin for smaller screens */
+    } 
 
 
   .filter:hover {
