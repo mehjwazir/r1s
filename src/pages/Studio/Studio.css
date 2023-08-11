@@ -27,7 +27,7 @@
 
 
 
-
+/* 
 .filter {
 filter: brightness(93%);
 	
@@ -42,7 +42,7 @@ transition: background .30s ease-in-out;
 	filter: saturate(140%);
 
 	
-}
+} */
 /* test  */
 
 @media (max-width: 768px) {
@@ -61,18 +61,6 @@ transition: background .30s ease-in-out;
 			margin-top: 4rem;
 }
 
-.filter {
-     filter: brightness(93%);
-  }
-
-  .filter:hover {
-	filter: brightness(110%);
-    filter: none; /* Remove all filters */
-    filter: none; /* Remove all filters */
-    filter: none; /* Remove all filters */
-    transform: none; /* Reset transform */
-    transition: none; /* Reset transition */
-  }
 
 
 
