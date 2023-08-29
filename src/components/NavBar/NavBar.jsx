@@ -51,19 +51,19 @@ const NavBar = () => {
 					className={`desktop-nav ${isMobile || isSidebarOpen ? "hidden" : ""}`}
 				>
 					<li>
-						<Link to="/">home</Link>
+						<Link to="/">HOME</Link>
 					</li>
 					{/* <li>
             <Link to="/shop">shop</Link>
           </li> */}
 					<li>
-						<Link to="/about">about</Link>
+						<Link to="/about">ABOUT</Link>
 					</li>
 					<li>
-						<Link to="/studio"> the studio</Link>
+						<Link to="/studio"> THE STUDIO</Link>
 					</li>
 					<li>
-						<Link to="/inquire">inquire</Link>
+						<Link to="/inquire">INQUIRE</Link>
 					</li>
 				</ul>
 				{isMobile && (
