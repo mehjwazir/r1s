@@ -9,7 +9,7 @@ function Home() {
 			<div className='front'>
 				<img src={Img}
 					alt="front"
-				   className='front1'/>
+				   className='small-screen large-screen'/>
 			</div>
 		
 		</main>

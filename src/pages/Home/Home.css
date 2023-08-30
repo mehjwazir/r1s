@@ -6,17 +6,18 @@
 	
 }
 
-.front1 {
-height: 40%;
-width: 40%;
-}
+
+	.large-screen {
+		height: 60%;
+		height: 60%;
+	}
 
 .home {
 	text-align: center;
 }
 
 @media only screen and (max-width: 730px) {
-	.front1 {
+	.small-screen {
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -26,6 +27,11 @@ width: 40%;
 	margin-right: 4rem;
 	margin-bottom: 6rem;
 	
-
 	}
+
+	.large-screen {
+		height: 50%;
+		height: 50%;
+	}
+
 }
