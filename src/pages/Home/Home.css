@@ -7,31 +7,16 @@
 }
 
 
-	.large-screen {
-		height: 60%;
-		height: 60%;
-	}
-
-.home {
-	text-align: center;
-}
-
 @media only screen and (max-width: 730px) {
 	.small-screen {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 5rem;
-	margin-right: 4rem;
-	margin-bottom: 6rem;
-	
-	}
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 5rem;
+		margin-right: 4rem;
+		margin-bottom: 6rem;
 
-	.large-screen {
-		height: 50%;
-		height: 50%;
 	}
-
 }
